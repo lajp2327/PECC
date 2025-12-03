@@ -52,7 +52,6 @@ codex/create-mvp-for-pecc-portal-si7q5q
      - Encuesta inteligente que aparece cuando el estatus llega a "Cerrado".
 
 > El frontend intenta autenticarse automáticamente con `/api/auth/login` usando `demo@cliente.com`. Si la API no está corriendo, opera en modo demo local.
-=======
 - `CreateTicketForm.jsx` con drag & drop para evidencias y validación básica de 8D/IATF.
 - `StatusTracker.jsx` con timeline horizontal.
 - `SmartSurvey.tsx` (renderiza solo en estatus "Cerrado", escala visual y pregunta condicional si la nota < 3).
