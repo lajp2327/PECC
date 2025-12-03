@@ -2,11 +2,13 @@
   "name": "pecc-backend",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "ts-node src/presentation/http/server.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
+
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "multer": "^1.4.5-lts.1"

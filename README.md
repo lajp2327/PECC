@@ -29,6 +29,7 @@ _db/schema.sql_
 
 ## Frontend
 Componentes de UI listos para integrar con la API:
+codex/create-mvp-for-pecc-portal-si7q5q
 - `CreateTicketForm.tsx` con drag & drop para evidencias y validación básica de 8D/IATF.
 - `StatusTracker.tsx` con timeline horizontal.
 - `SmartSurvey.tsx` (renderiza solo en estatus "Cerrado", escala visual y pregunta condicional si la nota < 3).
@@ -51,3 +52,7 @@ Componentes de UI listos para integrar con la API:
      - Encuesta inteligente que aparece cuando el estatus llega a "Cerrado".
 
 > El frontend intenta autenticarse automáticamente con `/api/auth/login` usando `demo@cliente.com`. Si la API no está corriendo, opera en modo demo local.
+- `CreateTicketForm.jsx` con drag & drop para evidencias y validación básica de 8D/IATF.
+- `StatusTracker.jsx` con timeline horizontal.
+- `SmartSurvey.tsx` (renderiza solo en estatus "Cerrado", escala visual y pregunta condicional si la nota < 3).
+

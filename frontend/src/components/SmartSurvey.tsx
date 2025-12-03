@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-
+import { useMemo, useState } from 'react';
 type SmartSurveyProps = {
   ticketStatus: string;
   onSubmit?: (payload: { rating: number; comments?: string }) => void;
