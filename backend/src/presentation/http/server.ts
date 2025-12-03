@@ -1,4 +1,5 @@
 import express, { Request, Response, NextFunction } from 'express';
+import cors from 'cors';
 import multer from 'multer';
 import { randomUUID } from 'crypto';
 import { SqlTicketRepository } from '../../infrastructure/repositories/SqlTicketRepository';
@@ -9,6 +10,7 @@ import { SatisfactionSurvey } from '../../domain/entities/SatisfactionSurvey';
 
 const upload = multer({ dest: 'uploads/' });
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 const ticketRepository = new SqlTicketRepository();
